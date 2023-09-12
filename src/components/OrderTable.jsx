@@ -31,7 +31,7 @@ const OrderTable = ({allOrders}) => {
                     key={index}
                     className="flex flex-col text-left bg-black px-3 py-2 rounded-md mt-2   "
                   >
-                    <span>Name: {data.itemName}</span>
+                    <span>Item Name: {data.itemName}</span>
                     <span>Price Per Unit: $ {data.price} </span>
                     <span>Quantity: {data.quantity} Piece</span>
                     <span>Total Price: {data.overallPrice} $</span>
